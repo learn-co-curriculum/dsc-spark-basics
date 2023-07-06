@@ -57,7 +57,7 @@ Here are links to some cluster manager options:
 
 Because the curriculum lessons and labs are smaller, proof-of-concept applications of Spark, we will **not** be using a special distributed file storage system like HDFS or a full-fledged cluster manager like YARN. Instead, we will use [Spark Standalone](https://spark.apache.org/docs/latest/spark-standalone.html) with a local cluster.
 
-Typically a data scientist or data engineer would not be responsible for managing a cluster. In fact, you can refer to the [PySpark documentation](https://spark.apache.org/docs/latest/api/python/), which contains a version of the Spark architecture diagram that doesn't even include the storage and cluster manager layers. Instead it just focuses on the Spark Core and upper-level libraries:
+Typically a data scientist or data engineer would not be responsible for managing a cluster. In fact, you can refer to the [PySpark documentation](https://spark.apache.org/docs/latest/api/python/), which contains a version of the Spark architecture diagram that doesn't even include the storage and cluster manager layers. Instead it just focuses on the Spark Core and upper-level libraries.
 
 
 ### Spark Core (Unstructured API)
