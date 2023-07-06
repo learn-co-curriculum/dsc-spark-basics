@@ -104,11 +104,11 @@ For data analysis and manipulation, the Structured API offers Spark SQL, a `pand
 
 Spark SQL has data structures called DataFrame and Dataset.
 
-A Spark SQL ***DataFrame*** is similar to a `pandas` DataFrame in that it keeps track of column names and types, which improves efficiency and makes the data easier to work with. It is not the same as the DataFrame used in the `pandas` API, although it is possible to convert between them if necessary. You can find more documentation [here](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.sql.DataFrame.html#pyspark.sql.DataFrame).
+A Spark SQL ***DataFrame*** is similar to a `pandas` DataFrame in that it keeps track of column names and types, which improves efficiency and makes the data easier to work with. It is not the same as the DataFrame used in the `pandas` API, although it is possible to convert between them if necessary. You can find more documentation [here](https://spark.apache.org/docs/latest/sql-programming-guide.html).
 
 A Spark SQL ***Dataset*** works similar to a DataFrame except it has an additional Row construct. Datasets are not usable in PySpark (only in Scala and Java) at this time, although you may see references to them in the main Spark documentation.
 
-Rather than a SparkContext like is used for the Unstructured API, the entry point to Spark SQL is a ***SparkSession***. You can find more documentation [here](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql.html).
+Rather than a SparkContext like is used for the Unstructured API, the entry point to Spark SQL is a ***SparkSession***.
 
 #### Pandas API
 
