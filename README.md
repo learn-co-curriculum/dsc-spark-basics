@@ -59,7 +59,6 @@ Because the curriculum lessons and labs are smaller, proof-of-concept applicatio
 
 Typically a data scientist or data engineer would not be responsible for managing a cluster. In fact, you can refer to the [PySpark documentation](https://spark.apache.org/docs/latest/api/python/), which contains a version of the Spark architecture diagram that doesn't even include the storage and cluster manager layers. Instead it just focuses on the Spark Core and upper-level libraries:
 
-![Simplified Spark Architecture](https://spark.apache.org/docs/latest/api/python/_images/pyspark-components.png)
 
 ### Spark Core (Unstructured API)
 
